@@ -1,0 +1,149 @@
+.username{
+    color:#404040;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:22px;
+    padding:10px;
+}
+.line{
+    border-bottom:1px solid #cccccc;
+    padding-left:10px;
+    margin-bottom:10px;
+}
+.tab1{
+    border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#efefef;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;
+}
+.tab1-active{
+    border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#ffffff;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;
+}
+.clr{
+    clear:both;
+}
+.box-out{
+    background-color:#efefef;
+    border:1px solid #cccccc;
+    padding:5px;
+}
+.box-in{
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    padding:5px;
+}
+.box-in2{
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    border-bottom:0px solid #cccccc;
+}
+.box-in2 td{
+    border-bottom:1px solid #cccccc;
+}
+.img{
+    border:1px solid #cccccc;
+}
+.img2{
+    border:1px solid #cccccc;
+    margin-right:10px;
+}
+.img3{
+    border:1px solid #426082;
+    padding:3px;
+}
+td{
+    font-size:11px;
+    color:#666666;
+}
+.field1{
+    font-weight:bold;
+    border:1px solid #666666;
+    width:300px;
+    font-size:11px;
+    padding:3px;
+}
+.green{
+    color:#62bd1a;
+}
+.button{
+    font-size:12px;
+}
+.name{
+    color:#426082;
+}
+.user_span_pointer {
+    cursor:pointer;
+    text-decoration:underline;
+}
+/* ------------------Validation styles by jquery------------------------*/
+.screenReader { left: -9999px; position: absolute; top: -9999px; }
+.thanks { background: #F2F3F6; border: 0px solid #7E8AA2; padding:0px; vertical-align:top; }
+/*****Forms*****/
+ol.forms { float: left; list-style: none; margin: 0; width: 100%; }
+ol.forms li { 
+    clear: both; 
+    float: left; 
+    margin-bottom: 18px; 
+    position: relative;
+    width: 100%;
+}
+ol.forms label {
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding-right: 20px;
+    width: 100px;
+}
+ol.forms input, ol.forms textarea {
+    border: 1px solid #7E8AA2;
+    border-radius: 3px;
+    font: inherit;
+    -moz-border-radius: 3px;
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    width: 214px;
+}
+ol.forms textarea { height: 300px; width: 334px; }
+ol.forms input:focus, ol.forms textarea:focus { background-color: #f2f3f6; border-color: #ff9800; }
+.error { color: #f00; }
+ol.forms li .error { font-size: 12px; margin-left: 20px; }
+ol.forms li.textarea .error {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+ol.forms li.screenReader { margin-bottom: 0; }
+ol.forms li.buttons button {
+    background: #ff9800;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font: 16px/16px "Avenir LT Std", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    padding: 6px 3px 3px 3px;
+    text-transform: uppercase;
+    width: auto;
+}
+ol.forms li.buttons button:hover { color: #222; }
+ol.forms li.buttons button:active { left: -1px; position: relative; top: -1px; }
+ol.forms li.buttons, ol.forms li.inline { float: right; width: 460px; }
+ol.forms li.inline input { width: auto; }
+ol.forms li.inline label { display: inline; float: none; width: auto; }
+/*--------------- END Validation styles by jquery-----------------------------*/

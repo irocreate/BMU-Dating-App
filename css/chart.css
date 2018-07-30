@@ -1,0 +1,10 @@
+body {
+    font-family: Arial;
+}
+pre.code {
+    display: block;
+    border-radius: 15px;
+    border: 1px dashed #aaa;
+    padding: 5px;
+    background-color: #eee;
+}

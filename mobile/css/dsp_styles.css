@@ -1,0 +1,213 @@
+
+div#navmenu {
+    margin: 18px;
+    text-align: left;
+    height: 30px;
+    width: 67%;
+    background-color:#f9f9f9;
+}
+div#navmenu ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-family:'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: small;
+    font-weight: bold;
+    color:#0099CC;
+    line-height: 20px;
+    white-space: nowrap;
+}
+div#navmenu li {
+    /*list-style-type: none;
+    display: inline;*/
+}
+div#navmenu li a {
+    /*border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#efefef;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;*/
+}
+div#navmenu li a:hover {
+    /*border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#ffffff;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;*/
+}
+.thumbnails-bg{
+    background-color:#FFFFFF;
+    width:900px;
+    height:200px;
+    padding:15px;
+}
+.dsp_admin_headings {
+    font-weight: bold;
+    color:#0099CC;
+    font-family:'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size:16px;
+    padding-left:20px;
+}
+.dsp_thumbnails1{
+    background-color:#FFFFFF;
+    width:490px;
+    padding-left:15px;
+}
+.dsp_thumbnails2{
+    background-color:#FFFFFF;
+    width:850px;
+    padding-left:15px;
+}
+.dsp_thumbnails3{
+    background-color:#FFFFFF;
+    width:900px;
+    padding-left:15px;
+}
+.formtext {
+    text-align: left;
+    font-family:'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size:11px;
+    color:#000000;
+    line-height: 20px;
+}
+.span_pointer {
+    cursor:pointer;
+    text-decoration:underline;
+}
+.dsp_admin_headings2 {
+    font-weight: bold;
+    color:#0099CC;
+    font-family:'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size:14px;
+    padding-left:20px;
+    white-space: nowrap;
+}
+.dsp_whitethumbnail{
+    background-color:#FFFFFF;
+    padding-left:15px;
+}
+.dsp_cell_background{
+    background-color:#CCCCCC;
+    text-align:center;
+    color:#000000;
+}
+.dsp_cell_background2{
+    background-color:#FFFFFF;
+    text-align:center;
+}
+.dsp_table_backgound{
+    background-color:#FFFFFF;
+    border:1px solid #CCCCCC;
+}
+.dsp_line{
+    border-bottom:1px solid #cccccc;
+    padding-left:10px;
+    margin-bottom:10px;
+}
+li.dsp_tab1{
+    border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#efefef;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;
+}
+li.dsp_tab1-active{
+    border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#ffffff;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;
+}
+.dsp_clr{
+    clear:both;
+}
+/* -------------------------------start  dsp Paging classes ---------------------------------------- */
+/*---Paging specific styling----*/     
+.dsp_paging { padding:10px 0px 0px 0px; text-align:center; font-size:13px;}
+.dsp_paging.display{text-align:right;}
+.dsp_paging a, .dsp_paging span {padding:2px 8px 2px 8px; font-weight :normal}
+.dsp_paging span {font-weight:bold; color:#000; font-size:13px; }
+.dsp_paging a, .dsp_paging a:visited {color:#000; text-decoration:none; border:1px solid #dddddd;}
+.dsp_paging a:hover { text-decoration:none; background-color:#6C6C6C; color:#fff; border-color:#000;}
+.dsp_paging span.prn { font-size:13px; font-weight:normal; color:#aaa; }
+.dsp_paging a.prn, .dsp_paging a.prn:visited { border:2px solid #dddddd;}
+.dsp_paging a.prn:hover { border-color:#000;}
+.dsp_paging p#total_count{color:#aaa; font-size:12px; font-weight: normal; padding-top:8px; padding-left:18px;}
+.dsp_paging p#total_display{color:#aaa; font-size:12px; padding-top:10px;}
+/* -------------------------------End dsp Paging classes ---------------------------------------- */
+/* ---------------------------------- class use in dsp_tools_geography.php file -------------------------*/
+.dsp_wrap{
+    margin-left:2px;
+    padding:10px;
+    width:700px;
+    display:block;
+}
+.dsp_col1{
+    width:100px;
+    float:left;
+    display:block;
+}
+.dsp_col2{
+    width:180px;
+    float:left;
+    display:block;
+}
+.dsp_col3{
+    width:150px;
+    float:left;
+    display:block;
+}
+.dsp_col4{
+    width:150px;
+    float:left;
+    display:block;
+}
+.dsp_col5{
+    width:100px;
+    float:left;
+    display:block;
+}
+.clear{
+    clear:both;
+}
+.dsp_note{
+    color:#990000;
+    font-weight:bold;
+}
+.dsp_language_txt {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    width: 390px;
+}
+.dsp_language_txt1 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 8px;
+
+
+}
+
+.code_edit { cursor:pointer;}
+.code_edit:hover { text-decoration:underline;}	
+/* ---------------------------------- class use in dsp_tools_geography.php file -------------------------*/

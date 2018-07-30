@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-device-width: 480px){
+    .dsp_home_full {
+        width: auto;
+        float: left;
+        text-align: center;
+        list-style: none;
+
+        padding: 0px;
+    }
+    .dsp_home_full li {
+        float: left;
+        margin: 10px;
+
+        width: 80px;
+        border: 1px solid gray;
+        list-style: none;
+        height: 68px;
+        padding-top: 10px;
+    }
+}

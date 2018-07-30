@@ -1,0 +1,213 @@
+.widget { padding : 0; }
+.lavish-seachbox {
+    background-color: #109f9f;
+    clear: both;
+    color: #fff;
+    padding: 1rem;
+    border: 1px solid;
+}
+.dsp-filter-container {
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 9;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+/*    padding-left: 5px;
+    padding-right: 5px;*/
+}
+#main-content .container {
+    padding-top: 0;
+}
+@media screen and (min-width: 1000px) {
+    .container {                     
+        max-width: 1920px;
+        width: 100%;
+    }
+}
+
+.dsp-filter-container h4 {
+    color: #fff;
+    font-weight: 100 !important;
+    line-height: 40px;
+}
+.lavish-seachbox h4 {
+    color: #fff;
+    font-size: 0.95rem !important;
+    padding-bottom: 10px;
+}
+.dsp-join-searchbox h4 {
+    font-size: 13px;
+}
+.dsp-join-searchbox h4 {
+    font-size: 17px !important;
+}
+.dsp-filter-container label {
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.lavish-seachbox label {
+    display: block;
+    font-weight: 300;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.lavish-seachbox .dsp-filter-container select {
+    border: 1px solid #f4f4f4 !important;
+    color: #505050;
+    padding: 1rem;
+}
+.dsp-filter-container select, .sbHolder {
+    border-radius: 0;
+}
+.dsp-filter-container select, .sbHolder {
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 40px;
+    padding-left: 10px;
+    position: relative;
+    width: 100%;
+}
+.sbHolder:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    float: right;
+    text-decoration: inherit;
+    font-size: 14px;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.lavish-seachbox .dsp-form-control, .lavish-seachbox .sbHolder {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.dsp-filter-container select, .sbHolder {
+    border-radius: 0;
+}
+.sbHolder {
+    display: inline-block;
+    padding-left: 0;
+}
+.dsp-filter-container select, .sbHolder {
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 40px;
+    padding-left: 10px;
+    position: relative;
+    width: 100%;
+}
+.sbHolder a {
+    color: #fff;
+    outline: medium none;
+}
+.sbHolder a.sbSelector {
+    display: block;
+    padding-left: 10px;
+}
+.sbOptions {
+    background: #109f9f none repeat scroll 0 0;
+    left: 0;
+    margin-bottom: 0 !important;
+    margin-left: 0;
+    max-height: 220px !important;
+    overflow-y: scroll;
+    padding-bottom: 0 !important;
+    position: absolute;
+    top: 40px !important;
+    width: 100%;
+    z-index: 9;
+}
+.sbOptions li a {
+    display: block;
+    padding: 0 8px;
+}
+.sbHolder a {
+    color: #fff;
+    outline: medium none;
+}
+.lavish-seachbox input.dsp-submit.dsp_submit_button, .lavish-seachbox input.dsp-submit.dsp_submit_button:hover {
+    font-size: 0.85rem;
+    font-weight: 100 !important;
+    margin-top: 0 !important;
+    padding: 7.5px 14px !important;
+}
+.dsp-filter-container input.dsp-submit {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    margin-top: -5px;
+    padding: 10px 20px !important;
+}
+.lavish-seachbox input[type="submit"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #fff !important;
+    color: #fff;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.et_menu_container, .dsp-template-1{
+    width : 85% !important;
+    margin : 0 auto;
+}
+.quick_action_section 
+{ 
+    padding : 0 1rem; 
+    background: mediumaquamarine;
+}
+.quick_action_section h4
+{ 
+    padding-bottom : 0; 
+    line-height: 0.3;
+}
+.quick_action_section input[type="submit"] 
+{ 
+    padding:0; 
+    width: 100%; 
+    background: tomato;
+    border-radius: 4px;
+    line-height: 1.42857;
+}
+.login_from_facebook { background: #3b5998 !important; }
+.page .ui-dialog .ui-widget-header { background:#109f9f; }
+.registration-wrap
+{ position: fixed;
+   top: 50%;
+   right: 0;
+   background: #000;
+   width: 160px;
+   padding: 10px;
+   z-index: 9999;
+}
+.quick_action_section .registration-wrap input[type="submit"] 
+{
+   padding: 0;
+   width: 100%;
+   background: tomato;
+   border-radius: 4px;
+   line-height: 1.42857;
+   border: none !important;
+   line-height: 42px;
+   margin-bottom: 5px;
+}
+.facebook-login input{ margin-bottom: 0 !important; }
+.registration-wrap{ background: #005252; z-index: 9999; }
+.quick_action_section .registration-wrap input[type="submit"] { background: #009E9E; }
+
+#main-footer .container {
+    max-width: 1920px;
+    width: 80%;
+}

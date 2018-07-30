@@ -1,0 +1,307 @@
+﻿Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating
+bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at
+what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different
+parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+
+
+=========================================================================
+						WP Dating Change Log
+=========================================================================
+
+	Copyright 2015 wpdating.com
+
+=========================================================================
+						Changelog Legend:
+=========================================================================
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+
+
+======================  Versioning Legend 5.000 ===========================
+
+[1] MAJOR version when you make major changes
+[2] MINOR version when you add a features or functions
+[3] PATCH version when you make bug fixes or minor feature adjustments
+
+===========================================================================
+
+June 19, 2018] Version 6.4.3 WP Dating <www.wpdating.com>
+[+] Php 7 compatibility
+[!] Url redirected to the register page when ever the visitors try to view the profile when force profile is ON
+[!] Restrcitng the Date Tracker,Report user & Block user buttons from displaying on own profile
+[!] Slashes removed from the Jquery and CSS link to speedup the site(site optimization)
+[!] Plan name added in the membership plans area that is displayed on Upgrade page
+[!] Input box filed replaced with the text area in profile pending list
+
+May 14, 2018] Version 6.4.2 WP Dating <www.wpdating.com>
+[+] Powered by signature added in the footer of the site.
+
+[April 20, 2018] Version 6.4.1 WP Dating <www.wpdating.com>
+[+] Added Support for Stripe Discount
+
+[April 09, 2018] Version 6.4 WP Dating <www.wpdating.com>
+[+] Google Inapp purchase upgraded for WPDating Mobile app
+[!] Facebook login updated
+[!] Remove delete option while viewing the members friendslist
+[!] Translation of multiple type values and questions of profile question while viewing the members profile
+[!] prefix with respect to the database fixed while viewing the user photos
+[!] Space added between the welcome text and username on the members profile
+[!] Updating of Firstname and last name even after the username already exists fixed
+[!] Bankwire and Cheque Payment option added for purchasing the credit option
+[!] Change of currency sign with respect to admin setup in the Credit purchase section
+[!] CSS Fixes
+
+===========================================================================
+
+[April 06, 2018] Version 6.3.1 WP Dating <www.wpdating.com>
+[!] Facebook SDK updated
+[!] Mysql error on partner's profile fixed
+======================================================================
+
+[February 27, 2018] Version 6.3 WP Dating <www.wpdating.com>
+[+] Profile image can be changed in Home without going to edit profile
+[!] WPDating Android app paypal payment
+[!] Removed slashes from the email body and subject
+[!] Various language code added and changed with respect to UI Improvement
+[!] City loading issue fix
+[!] Members can view the photos of other members that are uploaded without any album
+[!] Responsive design fix
+[!] CSS issues fix
+[!] The unread messages are highlighted
+[!] Album thumbnail shows the pictures instead of blank thumbnail
+
+===========================================================================
+
+[October 17, 2017] Version 6.2 WP Dating <www.wpdating.com>
+[+] Support for lovematch theme
+[*] Stealth mode fixes
+[*] Delete user hook updated
+[*] Viewed me and I viewed feature fixed
+[*] Guest search result feature fixed
+[*] Notice error fixed
+===========================================================================
+
+[September 11, 2017] Version 6.1 WP Dating <www.wpdating.com>
+[+] Strip Recurring Feature Added
+[*] PayPal Payment Updated
+[+] Send Email to Admin when the User is Reported
+[*] Spam Filter Error  Message is displayed
+[*] Facebook Login URL Updated
+[*] Chat Saving issue Solved
+[*] In app Purchase fixed in Mobile App
+[!] Fixed Scroll Top js error
+[!] Fixed Missing Colorbox js
+[!] Privacy Settings fixes
+
+===========================================================================
+
+[June 14, 2017] Version 6.0.0 WP Dating <www.wpdating.com>
+[+] Image Upload feature updated
+[*] Near me js library updated
+[!] Blocked members redirecting to members page
+[!] News feed date and time not saving in database
+
+===========================================================================
+
+[April 10, 2017] Version 5.10 WP Dating <www.wpdating.com>
+[*] Facebook login SDK updated
+[!] Login form replaced by DSP Login widget in members/login page
+[!] Reset Password Email
+[!] Improved User Reporting Feature
+[!] Remaining Credits display when user is assigned to the membership plan
+[!] Wordpress Logout in NGINX server
+[!] Display Age instead of DOB in friend request alert
+[!] Removed duplicate google map api script
+[!] Removed white space in color code
+
+===========================================================================
+
+[February 14, 2017] Version 5.9.1 WP Dating <www.wpdating.com>
+[+] Supports WPBetter Email plugin
+[!] Improved email templates
+[!] Registration First Name and Last Name now stores in Wordpress meta table
+
+===========================================================================
+
+[December 12, 2016] Version 5.9 WP Dating <www.wpdating.com>
+[+] Supports Qtranslate
+[+] Added Google API key option at the backend
+[!] Register Redirect
+
+===========================================================================
+
+[October 3, 2016] Version 5.8 WP Dating <www.wpdating.com>
+[!] Permission Issue
+[!] Footer width
+[+] Hook for credits
+[+] Know which membership plan the user is in from DSP ADMIN
+[+] Free membership plan
+[+] Profile questions private
+[+] Privacy (Only me )option in User Profiles
+[+] Added Add to Friends button when profile is set to (view only to
+    friends)
+===========================================================================
+
+[August  22, 2016] Version 5.7 WP Dating <www.wpdating.com>
+[!] Discount code
+[!] Delete Album
+[!] Added both and none option in FREE EMAIL MODE
+[!] Round off discount code
+[!] City and state remove %(like) while searching
+[!] Fixed Email validation
+[!] Private Album Issue
+[!] Enable favourites member to see private videos, audio and pictures
+[!] Stealth mode
+[!] Near Me does not display private photo
+[!] Remove deprecated functions
+[+] IN app purchase for ios
+===========================================================================
+
+[June 1, 2016] Version 5.6 WP Dating <www.wpdating.com>
+[!] HTTPS compatible
+[+] Paypal Recurring
+[!] Single quotes preceding with slashes in about me
+[!] User info displays in friend request
+[!] Translation now displays in advanced search -> profile question
+[!] Reported Comments Changed table prefix
+[+] New improved template
+===========================================================================
+
+[May 04, 2016] Version 5.5 WP Dating <www.wpdating.com>
+[!] Match Alert option shown for WPDATING THEME and LAVISH THEME
+[!] Match Alert efficient
+[!] PHP version compatibility check
+[!] Reset Password Email template
+[!] Credits update after purchase
+[!] Paypal redirects back to thank you page after purchase
+[!] Meet Me css improved
+[!] Edit profile and edit partner profile css improved in ipad View
+[!] Removed deprecated function get_currentuserinfo() for WordPress Version 4.5
+[!] Translation issues in backend - In Matches, In Memberships -> Features
+[!] Remove hardcoded language of prev next navigation button
+[+] Meet Me Widget
+[!] Ordering of profile questions when profile is viewed
+[!] Js plugin validation messages translated
+===========================================================================
+
+[March 09, 2016] Version 5.4 WP Dating <www.wpdating.com>
+[!] About Me & Interest Info in profile improved
+[!] Near Me and Zipcode Search Feature Improved
+[!] Email Header Changed from WordPress to Admin
+[!] Profile Question & Answer delete for all languages
+[!] City selection adjusted according to State selection
+[!] Removed deprecated function eregi
+[!] Membership plan can be set to 0 price
+[!] MemberShip plan at 0 price not redirected to Paypal
+[!] Fixed regex for validate email in account settings
+===========================================================================
+
+[January 18, 2016] Version 5.3 WP Dating <www.wpdating.com>
+[+] Stripe payment add-on supported
+[+] User can now report on comment
+[+] Featured members
+[+] Mobile app supported
+[+] German Zip Code option Added in DSP Admin
+[+] Close Button added in profile image when viewed
+[!] Wink message display according to language
+[!] Year retaintion in registration form
+[!] Age display correctly in search results
+[!] Status now can be updated when any language is selected
+[!] Near me shows result
+[!] Terms page url shown
+===========================================================================
+
+[December 11, 2015] Version 5.2 WP Dating <www.wpdating.com>
+[!] Display the title for each pages in members page
+[!] Enable Email options now showing in DSP Admin
+[!] Paypal Advance Gateways
+[+] Email template for reset password successfull
+[!] Edit Partner Profile Update Button and profile question
+[!] Spam Word Filter
+[!] Happy Stories can be saved when other language is selected
+[!] Cities appearing in alphabetical order when default country is selected
+
+==========================================================================================================
+
+[October 15, 2015] Version 5.1.4 WP Dating <www.wpdating.com>
+[!] Profile Info Design changes -app
+[!] Start year and end year fixed in Edit Profile's DOB -app
+[!] Trending visible when setting is turned off -app
+[!] Email sent to admin when setting is turned off -app
+[!] Grey sceen appearing when back button is pressed from saved search result -app
+
+==========================================================================================================
+
+[September 24, 2015] Version 5.1.3 WP Dating Plugin <http://www.wpdating.com>
+[!]Online member Feature Improved
+[!]Fixed Facebook Login Feature
+[!]Usability on Homepage Search Improved
+[+]Release of Password Addon
+
+[September 11, 2015] Version 5.1.2 WP Dating Plugin <http://www.wpdating.com>
+[+] Default search country taken from geography setting in all searches
+[!] One-on-one chat
+[!] Auto Approval for comments
+[!] Profiles check on backend improved
+[!] Password Addon Compatibility Added
+[!] DSP Admin Setting Reorganized
+
+
+[August 14, 2015] Version 5.1 WP Dating Plugin <http://www.wpdating.com>
+[!] License Key Improved
+[!] Usability Features Imporoved
+[!] CSS Improved
+
+[July 14, 2015] Version 5.0.BETA2 WP Dating Plugin <http://www.wpdating.com>
+[!] License Key Check Improved
+
+[July 13, 2015] Version 5.0.0 WP Dating <www.wpdating.com>
+
+[+]Option to display first name & last name in the registration form and in profile too
+[+]Facebook login button in DSP Login plugin and login page short code
+[+]Profile tab added while viewing other member�s profile
+[+]Premium Membership can be created for zero cost also
+[+]Compatible version of Divi theme included in the bundle
+[+]Alt Tags included for the images
+[+]License key check
+[+] Button for back to profiles
+[+] Members page shortcode doesn�t require /members in URL
+[*] Notification messages are improved
+[*] Success message is displayed after admin settings changes
+[*] Advanced search option code improved
+[*] Using coupon code with value more or equal to membership cost will not redirect to PayPal
+[*] PayPal IPN code improved
+[*] Friend Request Feature made better
+[*] Successful message after adding comment and rating
+[*] About us and Meet me text box improved
+[*] Replaced transient with file system cache
+[*] Message delete behavior
+[*] Message can be sent to members who are not in friend list or Favorites
+[*] Free mode "Off" and email "Enabled" for male
+[*] Filter on Online Members code improved
+[*] 50000 profiles .sql file improved
+[*] User friendliness increased by storing options selected while creating profile
+[*] Navigation for User Profile info in the backend
+[*] Email text retention when error notification comes up
+[*] Interest cloud is not showing properly
+[*] Guest limit profile can be set to zero also.
+[*] PHP codes in the plugin
+[*] jQuery Codes in the plugin
+    Fixed
+[!] Admin can turn on/off trending feature
+[!] Message text in the front end
+[!] Email message from other members can be viewed again after viewing it once.
+[!] Subject of the email message is shown
+[!] Online member Widget count
+
+==========================================================================================================
+
+
+
