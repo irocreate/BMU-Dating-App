@@ -1,0 +1,671 @@
+.dsp-line{
+    border-bottom:1px solid #cccccc;
+    padding-left:10px;
+    margin-bottom:10px;
+}
+.dsp_tab1{
+    border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#efefef;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;
+}
+.dsp_tab1-active{
+    border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#ffffff;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;
+}
+.clr{
+    clear:both;
+}
+.dsp_username{
+    color:#404040;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:22px;
+    padding:10px;
+}
+.dsp_box-out{
+    background-color:#efefef;
+    border:1px solid #cccccc;
+    padding:5px;
+}
+.dsp_box-in{
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    padding:5px;
+}
+.dsp_box-in2{
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    border-bottom:0px solid #cccccc;
+}
+.dsp_box-in2 td{
+    border-bottom:1px solid #cccccc;
+}
+.dsp_field1{
+    font-weight:bold;
+    border:1px solid #666666;
+    width:250px;
+    font-size:11px;
+    padding:3px;
+}
+.dsp_green{
+    color:#62bd1a;
+}
+.dsp_img3{
+    border:1px solid #426082;
+    padding:3px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.dsp_name{
+    color:#426082;
+}
+.dsp_box_in_with_scroll{
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    padding:5px;
+    overflow:scroll;
+    overflow-x:hidden; 
+    height:200px;
+}
+.dsp_span_pointer {
+    cursor:pointer;
+    text-decoration:underline;
+}
+.dsp_vertical_scrollbar {
+    overflow:scroll;
+    overflow-x:hidden; 
+    height:150px;
+    scrollbar-arrow-color: #000000;
+}
+.dsp_back_inbox {
+    border-bottom:1px solid #cccccc;
+}
+.dsp_img2{
+    border:1px solid #cccccc;
+    margin-right:10px;
+}
+.dsp_box-out3 {
+    background-color:#efefef;
+    border:1px solid #cccccc; padding:5px 5px 0px 5px;
+    margin-bottom:-7px;
+}
+.dsp_box-in3 {
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    padding:5px;
+    margin-bottom:5px;
+}
+.dsp_search_result_box_out {
+    background-color:#efefef;
+    border:1px solid #cccccc;
+    padding:5px 5px 0px 5px;
+    margin-bottom:-7px;
+}
+.dsp_search_result_box_in {
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    padding:5px; 
+    margin-bottom:5px;
+}
+.dsp_fav_link_border {
+    border-bottom:1px solid #94afc4; 
+    height:22px;
+}
+/*  ---------------- Start Classes use in dating_home_page.php ------------------*/
+.dsp_guest_home_page_wrap{
+    padding:1px;
+    width:100%;
+    display:block;
+    position: relative;
+}
+.dsp_guest_home_page_col1 {
+    width:25%;
+    text-align:center;
+    display:block;
+    float:left;
+}
+.dsp_guest_home_page_col2 {
+    padding-right:20px;
+    text-align:right;
+    display:block;
+}
+.dsp_guest_home_page_row1 {
+    width:100%;
+    display:block;
+}
+.dsp_clr{
+    clear:both;
+}
+/*  ---------------- End Classes use in dating_home_page.php ------------------*/
+.box-in2{
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    border-bottom:0px solid #cccccc;
+}
+.box-in2 td{
+    border-bottom:1px solid #cccccc;
+}
+.img{
+    border:1px solid #cccccc;
+}
+.img2{
+    border:1px solid #cccccc;
+    margin-right:10px;
+}
+.img3{
+    border:1px solid #426082;
+    padding:3px;
+}
+td{
+    font-size:11px;
+    color:#666666;
+}
+.field1{
+    font-weight:bold;
+    border:1px solid #666666;
+    width:300px;
+    font-size:11px;
+    padding:3px;
+}
+.button{
+    font-size:12px;
+}
+.user_span_pointer {
+    cursor:pointer;
+    text-decoration:underline;
+}
+/* ------------------Validation styles by jquery------------------------*/
+.screenReader { left: -9999px; position: absolute; top: -9999px; }
+.thanks { background: #F2F3F6; border: 0px solid #7E8AA2; padding:0px; vertical-align:top; }
+/*****Forms*****/
+ol.forms { float: left; list-style: none; margin: 0; width: 100%; }
+ol.forms li { 
+    clear: both; 
+    float: left; 
+    margin-bottom: 18px; 
+    position: relative;
+    width: 100%;
+}
+ol.forms label {
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding-right: 20px;
+    width: 100px;
+}
+ol.forms input, ol.forms textarea {
+    border: 1px solid #7E8AA2;
+    border-radius: 3px;
+    font: inherit;
+    -moz-border-radius: 3px;
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    width: 214px;
+}
+ol.forms textarea { height: 300px; width: 334px; }
+ol.forms input:focus, ol.forms textarea:focus { background-color: #f2f3f6; border-color: #ff9800; }
+.error { color: #f00; }
+ol.forms li .error { font-size: 12px; margin-left: 20px; }
+ol.forms li.textarea .error {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+}
+ol.forms li.screenReader { margin-bottom: 0; }
+ol.forms li.buttons button {
+    background: #ff9800;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font: 16px/16px "Avenir LT Std", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    padding: 6px 3px 3px 3px;
+    text-transform: uppercase;
+    width: auto;
+}
+ol.forms li.buttons button:hover { color: #222; }
+ol.forms li.buttons button:active { left: -1px; position: relative; top: -1px; }
+ol.forms li.buttons, ol.forms li.inline { float: right; width: 460px; }
+ol.forms li.inline input { width: auto; }
+ol.forms li.inline label { display: inline; float: none; width: auto; }
+/*--------------- END Validation styles by jquery-----------------------------*/
+/*--------------- Start View Profile page style classes-----------------------------*/
+.fav_icons_border{
+    border-bottom:1px solid #94afc4; 
+}
+.grey_background_header{
+    background-color:#eceff4;
+    border-top:1px solid #94afc4;
+    padding-left:10px;
+}
+.grey_vertical_line {
+    border-left:1px solid #999999;
+}
+.grey_horizontal_line {
+    border-top:1px solid #CCCCCC;
+}
+.grey_horizontal_bottom_line {
+    background-color:#FFFFFF; 
+    border-bottom:1px solid #CCCCCC;
+}
+/*--------------- END View Profile page style classes-----------------------------*/
+.dsp_submit_button
+{
+    font-size:12px;
+    font-weight:100;
+    padding:3px 10px 3px 10px;  /*top,right,bottom,left*/
+}
+.dsp_page_link a{
+    text-decoration:none;
+}
+.dsp_page_link a:hover{
+    text-decoration:underline;
+}
+/* -------------------------------start  dsp Paging classes ---------------------------------------- */
+/*---Paging specific styling----*/     
+.dsp_paging { padding:10px 0px 0px 0px; text-align:center; font-size:13px;}
+.dsp_paging.display{text-align:right;}
+.dsp_paging a, .dsp_paging span {padding:2px 8px 2px 8px; font-weight :normal}
+.dsp_paging span {font-weight:bold; color:#000; font-size:13px; }
+.dsp_paging a, .dsp_paging a:visited {color:#000; text-decoration:none; border:1px solid #dddddd;}
+.dsp_paging a:hover { text-decoration:none; background-color:#6C6C6C; color:#fff; border-color:#000;}
+.dsp_paging span.prn { font-size:13px; font-weight:normal; color:#aaa; }
+.dsp_paging a.prn, .dsp_paging a.prn:visited { border:2px solid #dddddd;}
+.dsp_paging a.prn:hover { border-color:#000;}
+.dsp_paging p#total_count{color:#aaa; font-size:12px; font-weight: normal; padding-top:8px; padding-left:18px;}
+.dsp_paging p#total_display{color:#aaa; font-size:12px; padding-top:10px;}
+/* -------------------------------End dsp Paging classes ---------------------------------------- */
+.username{
+    color:#404040;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:22px;
+    padding:10px;
+}
+.line{
+    border-bottom:1px solid #cccccc;
+    padding-left:10px;
+    margin-bottom:10px;
+}
+.tab1{
+    border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#efefef;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;
+}
+.tab1-active{
+    border:1px solid #cccccc;
+    border-bottom:0px;
+    float:left;
+    display:block;
+    background-color:#ffffff;
+    color:#666666;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    padding:5px 10px 5px 10px;
+    margin-left:-1px;
+}
+.box-out{
+    background-color:#efefef;
+    border:1px solid #cccccc;
+    padding:5px;
+}
+.box-in{
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    padding:5px;
+}
+.dsp_myblog_submit_button
+{
+    font-size:12px;
+    font-weight:100;
+    margin-left: 64px;
+    padding:1px 6px;  /*top,right,bottom,left*/
+}
+.page-id-7 .entry{width:565px;}
+/* mobile */
+.dsp_mb_gray 
+{
+    background-color: #F4F4F4; 
+
+    border:1px solid #cccccc;
+    border-left: none;
+    border-right:none; 
+}
+.dsp_mb_header
+{
+    color:black;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+.dsp_mb_menu
+{
+    float: left;
+    margin-right: 10px;
+    margin-top: 6px;
+    height:22px;
+    margin-bottom: 6px;
+    /*margin-left: 75px;*/
+    margin-left: 10px;
+}
+.dsp_mb_line{
+    border-bottom:1px solid #cccccc;
+    padding-left:10px;
+    margin-bottom:10px;
+    background-color: #E2E2E2;
+    /*width: 72%;*/
+    position: relative;
+    margin-left:-20px;
+    margin-right:-20px; 
+}
+.dsp_mb_sm_header
+{
+    color:black;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+.dsp_mb_paging
+{
+    float: right;
+    margin-top: 10px;
+
+}
+.dsp_mb_paging a
+{
+    cursor: pointer;
+
+}
+.dsp_mb_paging_mail
+{
+    float: left;
+    margin-top: 10px;
+    color: #8C0008;
+}
+.dsp_mb_paging_mail a
+{
+    cursor: pointer;
+    background-color: #F4F4F4;
+    border:1px solid #cccccc;
+    color: #8C0008;
+}
+.dsp_mb_mem_menu
+{
+    float: left;
+    margin-right: 1px;
+    margin-top: 6px;
+    height:22px;
+    margin-bottom: 6px;
+
+}
+.dsp_mb_mem_menu_active
+{
+    float: left;
+    margin-right: 1px;
+    margin-top: 6px;
+    height:22px;
+    margin-bottom: 6px;
+    font-weight: bold;
+
+}
+.dsp_mb_mem_menu_active a
+{
+    color: black;
+    font-size: 11px;
+
+}
+.dsp_mb_mem_menu a
+{
+    text-decoration: underline;
+    color: black;
+    font-size: 11px;
+
+}
+.dsp_mem_div
+{
+    width: 100%;
+    margin-left: -10px;
+}
+.dsp_mail_menu_active
+{
+    float: left;
+    margin-right: 1px;
+    margin-top: 6px;
+    height:22px;
+    margin-bottom: 6px;
+}
+.dsp_mail_menu_active a
+{
+    color: #8C0008;
+    font-size: 11px;
+
+}
+.dsp_compose
+{
+    border-bottom:2px solid #cccccc;
+    border-top:2px solid #cccccc;
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+.mb_field1{
+    font-weight:bold;
+    border:1px solid #666666;
+    width:100%;
+    font-size:11px;
+    padding:3px;
+}
+.mb_test_field1{
+    border:1px solid #666666;
+    width:99%;
+    font-size:11px;
+    padding:3px;
+    height:100px;
+}
+.dsp_mb_vertical_scrollbar 
+{
+    overflow:auto;
+    overflow-x:hidden; 
+    height:400px;
+    scrollbar-arrow-color: #000000;
+    width: 100%;
+}
+.dsp_mb_gray
+{
+    background-color: #F4F4F4;
+}
+.dsp_mb_name
+{
+    color: #B01D05;
+    font-weight: bold;
+}
+.dsp_mb_name a
+{
+    color: #B01D05;
+    font-weight: bold;
+}
+.dsp_md_sub
+{
+    color: black;
+    font-weight: bold;
+}
+.dsp_md_sub_read
+{
+    color: black;
+}
+.dsp_mb_rep
+{
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+.dsp_mb_gray_rep 
+{
+    background-color: #F4F4F4;
+    background-color:#efefef;
+    border:1px solid #cccccc;
+    border-left: none;
+    border-right:none;
+    padding-bottom: 5px; 
+}
+.dsp_mb_gray_txt 
+{
+    border:1px solid #cccccc;
+
+    width:99%;
+    font-size:11px;
+    padding:3px;
+    height:100px;
+}
+.dsp_mb_nothing
+{
+    border-bottom:1px solid #cccccc;
+    border-top:1px solid #cccccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.search_div a
+{
+    color: black;
+    text-decoration: underline;
+
+}
+.search_table
+{
+    border-color: #CCCCCC -moz-use-text-color;
+    border-style: solid none;
+    border-width: 1px medium;
+    border-top:none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.search_table a
+{
+    color: black;
+    text-decoration: underline;
+
+}
+.dsp_mb_sv
+{
+    overflow:auto;
+    overflow-x:hidden; 
+    height:200px;
+    scrollbar-arrow-color: #000000;
+    width: 100%;
+}
+/* Pagination style*/
+
+.dspmb_main_paging
+{
+    padding:10px 0px 0px 0px; font-size:13px; width:100%;float: left;
+}
+.dspmb_pagination
+{
+    width:99%;text-align: right;
+}
+.dspmb_pagination div
+{
+    display: inline-block;	
+}
+.wpse_pagination {
+    background: none repeat scroll 0 0 white;
+    cursor: default;
+}
+.dspmb_pagination a, .dspmb_pagination span, .dspmb_pagination em {
+    display: inline-block;
+
+    margin-right: 1px;
+    padding: 0.2em 0.5em;
+}
+.dspmb_pagination .disabled {
+    border: 1px solid #DDDDDD;
+    color: #999999;
+    font-size: 11px;
+}
+.dspmb_pagination .current {
+
+
+    display: inline-block;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 1px;
+    padding: 0.2em 0.5em;
+}
+.dspmb_pagination .current a
+{
+    cursor: default;
+
+}
+.dspmb_pagination a {
+    border: 1px solid #DDDDDD;
+
+    font-size: 11px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dspmb_pagination a:hover, .dspmb_pagination a:focus {
+    border-color: #000033;
+    color: #000033;
+}
+.dspmb_pagination .page_info {
+    background: none repeat scroll 0 0 #FA9D00;
+    color: white;
+    margin-bottom: 0.3em;
+    padding: 0.4em 0.6em;
+    text-align: center;
+    width: 22em;
+}
+.dspmb_pagination .page_info b {
+    background: none repeat scroll 0 0 #6AA6ED;
+    color: #000033;
+    padding: 0.1em 0.25em;
+}
+.dspmb_pagination:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+* html .dspmb_pagination {
+    height: 1%;
+}
+:first-child + html .dspmb_pagination {
+    overflow: hidden;
+}
+.dspmb_pagination .extended {
+    padding: 0 9px 0 4px;
+}
+.dspmb_pagination_dot
+{
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* Pagination style ends*/

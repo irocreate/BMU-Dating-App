@@ -1,0 +1,85 @@
+   
+.wpse_paging { padding:10px 0px 0px 0px; text-align:center; font-size:11px;}
+.wpse_paging.display{text-align:right;}
+.wpse_paging a, .wpse_paging span {padding:2px 8px 2px 8px; font-weight :normal}
+.wpse_paging span {font-weight:bold; color:#000; font-size:13px; }
+.wpse_paging a, .wpse_paging a:visited {color:#000; text-decoration:none; border:1px solid #dddddd;}
+.wpse_paging a:hover { text-decoration:none; background-color:#6C6C6C; color:#fff; border-color:#000;cursor: pointer}
+.wpse_paging span.prn { font-size:13px; font-weight:normal; color:#aaa; }
+.wpse_paging a.prn, .wpse_paging a.prn:visited { border:2px solid #dddddd;}
+.wpse_paging a.prn:hover { border-color:#000;}
+.wpse_paging p#total_count{color:#aaa; font-size:12px; font-weight: normal; padding-top:8px; padding-left:18px;}
+.wpse_paging p#total_display{color:#aaa; font-size:12px; padding-top:10px;}
+/* -------------------------------End wpse Paging classes ---------------------------------------- */
+.wpse_font
+{
+	font-style: italic;
+}
+/*-------------------------------------START PAGINATION-----------------------------------------------------------*/
+.wpse_pagination {
+  background: white;
+  cursor: default;
+  float:right;
+  margin-bottom: 10px;
+  /* self-clearing method: */ }
+  
+  .wpse_pagination div{float:left; font-size:12px;}
+  
+  .wpse_pagination a, .wpse_pagination span, .wpse_pagination em {
+    padding: 0.2em 0.5em;
+    display: block;
+    float: left;
+    margin-right: 1px; }
+  .wpse_pagination .disabled {
+    color: #fff;
+    font-size:12px; text-transform:capitalize;}
+	  .wpse_pagination .disabled a{color: #fff; border:none;}
+  
+ /*#wpbody .wpse_pagination .current {background: #474545; color: #fff;}
+  #wpbody .wpse_pagination a{  color: #474545;
+    border: 1px solid #474545;}*/
+    
+  .wpse_pagination .current {
+    font-style: normal;
+    background: #c1c1c1;
+    color: #616161;
+    padding: 0.2em 0.5em;
+    margin-right: 1px;
+    float: left; 
+    }
+     
+  .wpse_pagination a {
+  	font-size:11px;
+    text-decoration: none;
+    color: #616161;
+    border: 1px solid #c1c1c1; }
+    .wpse_pagination a:hover, .wpse_pagination a:focus {
+      color: #000033;
+      border-color: #365490; }
+  .wpse_pagination .page_info {
+    background: #7d858e;
+    color: white;
+    padding: 0.4em 0.6em;
+    width: 22em;
+    margin-bottom: 0.3em;
+    text-align: center;
+	 }
+    .wpse_pagination .page_info b {
+      color: #000033;
+      background: #6aa6ed;
+      padding: 0.1em 0.25em; }
+	  
+  .wpse_pagination:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  * html .wpse_pagination {
+    height: 1%; }
+  *:first-child + html .wpse_pagination {
+    overflow: hidden; }
+.wpse_pagination .extended
+{
+ padding: 0 9px 0 4px;
+}
